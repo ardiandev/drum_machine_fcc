@@ -1,0 +1,53 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+}
+
+.title {
+  text-align: center;
+  background-color: aqua;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  height: 300px;
+  gap: 10px;
+}
+
+.display {
+  background-color: beige;
+  text-align: center;
+}
+
+.social-media {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 0.3;
+}
+
+.drum-pad {
+  background: gray;
+  border: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+.drum-pad:before {
+  height: 0%;
+  width: 2px;
+}
+.drum-pad:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
