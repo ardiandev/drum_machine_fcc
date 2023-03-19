@@ -129,13 +129,13 @@ function App() {
         <p>
           source:{" "}
           <span>
-            <a href="#">GitHub</a>
+            <a href="https://github.com/ardiandev/drum_machine_fcc">GitHub</a>
           </span>
         </p>
         <p>
           created by:{" "}
           <span>
-            <a href="#">Ardian Pradana</a>
+            <a href="https://github.com/ardiandev">Ardian Pradana</a>
           </span>
         </p>
       </div>
